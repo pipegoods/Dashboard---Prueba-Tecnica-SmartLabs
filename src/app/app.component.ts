@@ -13,7 +13,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     $('.dropdown-trigger').dropdown();
+    $('.sidenav').sidenav();
+    
   }
-
 
 }

@@ -1,36 +1,37 @@
-
 <nav>
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo">La Casa de Papel</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a >Personajes</a></li>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+      <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+      <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+      <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
     </ul>
   </div>
 </nav>
+<ul id="slide-out" class="sidenav sidenav-fixed">
+  <li><div class="user-view">
+    <div class="background">
+      <img src="https://htmlcolors.com/color-image/004d40.png">
+    </div>
+    <a href="#"><img class="circle" src="https://avatars.githubusercontent.com/u/31173782?v=4"></a>
+    <a href="#"><span class="white-text name">Andrés Vizcaíno</span></a>
+    <a href="#"><span class="white-text email">pipe.jaider@gmail.com</span></a>
+  </div></li>
+  <li><a href="#!"><i class="material-icons">dashboard</i>Panel de control</a></li>
+  <li><a href="#!">Second Link</a></li>
+  <li><div class="divider"></div></li>
+  <li><a class="subheader">Subheader</a></li>
+  <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
 
-
-  <!-- Dropdown Trigger -->
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
-
-  <!-- Dropdown Structure -->
-  <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
 
 
 <div class="fixed-action-btn">
-  <a class="btn-floating btn-large red">
-    <i class="large material-icons">add</i>
+  <a class="btn-floating btn-large #338073">
+    <i class="large material-icons">help</i>
   </a>
 </div>
 
 
 <router-outlet></router-outlet>
-
-
-
