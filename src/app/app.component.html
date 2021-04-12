@@ -19,9 +19,9 @@
     <a href="#"><span class="white-text name">Andrés Vizcaíno</span></a>
     <a href="#"><span class="white-text email">pipe.jaider@gmail.com</span></a>
   </div></li>
-  <li><a class="waves-effect" href="#!"><i class="material-icons color-icon">dashboard</i>Panel de control</a></li>
+  <li><a class="waves-effect" routerLink="/"><i class="material-icons color-icon">dashboard</i>Panel de control</a></li>
   <li><a class="waves-effect" href="#!"><i class="material-icons color-icon">campaign</i>Campañas</a></li>
-  <li><a class="waves-effect" href="#!"><i class="material-icons color-icon">people</i>Pacientes</a></li>
+  <li><a class="waves-effect" routerLink="/pacientes"><i class="material-icons color-icon">people</i>Pacientes</a></li>
   <li><a class="waves-effect" href="#!"><i class="material-icons color-icon">loyalty</i>Programas</a></li>
   <li><a class="waves-effect" href="#!"><i class="material-icons color-icon">ballot</i>Monitoreo</a></li>
   <li><a class="waves-effect" href="#!"><i class="material-icons color-icon">assessment</i>Reportes y Estadisticas</a></li>
@@ -30,10 +30,12 @@
 
 
 <div class="fixed-action-btn">
-  <a class="btn-floating btn-large #338073">
+  <a class="btn-floating btn-large #338073" href="https://www.linkedin.com/in/andr%C3%A9s-vizca%C3%ADno-551241204/" target="_blank">
     <i class="large material-icons">help</i>
   </a>
 </div>
 
 
-<router-outlet></router-outlet>
+<main>
+  <router-outlet></router-outlet>
+</main>

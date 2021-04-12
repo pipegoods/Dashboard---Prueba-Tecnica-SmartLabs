@@ -5,3 +5,10 @@
 .color-badge {
     background-color: #992B00 !important;
 }
+
+main {
+    @media screen and (min-width: 990px) {
+        padding-left: 310px;
+    }
+    
+}
